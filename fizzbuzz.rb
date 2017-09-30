@@ -1,4 +1,4 @@
-def fizzbuzz(int)
+def fizzbuzz(input)
 #  puts "Welcome to FizzBuzz!  Please enter an integer."
 #  input = gets.strip.to_i
   if input % 3 + input % 5 == 0
