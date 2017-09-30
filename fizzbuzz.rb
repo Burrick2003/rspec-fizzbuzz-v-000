@@ -3,11 +3,11 @@ def fizzbuzz(input=1)
   #input = gets.strip.to_i
   input.to_i
   if (input % 3 + input % 5) == 0
-      "FizzBuzz"
+      puts "FizzBuzz"
   elseif (input % 3) == 0
-      "Fizz"
+      puts "Fizz"
   elseif (input % 5) == 0
-      "Buzz"
+      puts "Buzz"
   else
   end
 end
